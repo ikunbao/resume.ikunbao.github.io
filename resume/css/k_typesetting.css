@@ -1,0 +1,246 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin-top:0vh;
+	margin-right:4vw;
+	margin-left:4vw;
+	font-family:"cursive","Microsoft JhengHei"; 
+}
+#main{
+  display:flex;
+  flex-direction:column;
+}
+[class*="type-"] {
+  float: left;
+}
+.type-1 {width: 8.33%;}
+.type-2 {width: 16.66%;}
+.type-3 {width: 25%;}
+.type-4 {width: 33.33%;}
+.type-5 {width: 41.66%;}
+.type-6 {width: 50%;}
+.type-7 {width: 58.33%;}
+.type-8 {width: 66.66%;}
+.type-9 {width: 75%;}
+.type-10 {width: 83.33%;}
+.type-11 {width: 91.66%;}
+.type-12 {width: 100%;}
+
+.background_1 {
+	background-image: url("../images/photo/photo_2.jpg");
+	z-index:-1;
+	opacity:0.8;
+	min-height: 100vh; 		
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.about_img{
+	position:absolute;
+	left:10vw;
+	bottom:10vh; 
+	max-width:40vw;
+	min-width:40vw;
+	height:auto;
+	border:0.1vw dashed black;
+	padding: 6vw;
+}
+.about_content{
+	position:absolute;
+	left:52vw;
+	bottom:45vh; 
+	text-indent:2.4vw;
+	line-height:6vh;
+	font-size:1.1vw;
+}
+.about_content_personal{
+	position:absolute;
+	left:52vw;
+	bottom:22vh; 
+	font-size:1.1vw;
+}
+.about_content_url{
+	position:absolute;
+	left:52vw;
+	bottom:10vh;
+	font-size:1.2vw;
+}
+.about_content_url p{
+	position:absolute;
+	top:-1vh;
+	width: 8vw;
+	height:6vh;
+	border-radius:2vw;
+	padding: 0.7vw;
+	background-color: #181B46;
+	text-align:center; 
+	font-size:1.5vw;
+	color:white;
+}
+.about_content_url p:hover{
+	border: 0.8vh double #FEC804; 
+	padding: 0.3vw; 
+}
+
+
+.about_content_url img{
+	position:relative;
+	left:8vw;
+	width:4.2vw;
+	height:auto; 
+}
+.background_2{
+	background-color:#F2F4EF;
+	min-height:340vh; 	
+	max-width:100vw;
+}
+.title1{
+	background-color:#181B46;
+	color:white;
+	text-align:center;
+	position:relative;
+	top:1vh;
+	max-height:8vh; 
+	min-height:8vh;
+	font-size:1.25vw;
+	border-bottom: 0.8vh double #FEC804; 
+}
+.title_beautify{
+	width:10vw;
+	height:6vh;
+	border-radius:2vw;
+	background-color: #181B46;
+	color:white;
+	padding: 0.5vw;
+	font-size:1.5vw;
+	text-align: center;
+	border-bottom: 0.8vh double #FEC804;
+}
+.experience_content_class{
+	display: flex;
+  	flex-direction:column;
+	position:absolute;
+	top:110vh;
+	left:9.5vw;
+}
+.experience_content_class_word{
+	position:absolute;
+	top:60vh;
+	left:0.5vw;
+	line-height:4.5vh;
+	font-size:1.25vw;
+}
+.experience_content_class img{
+	width:35vw;
+	height:auto;
+}
+.experience_content_club{
+	position:absolute;
+	top:110vh;
+	left:52.3vw;
+}
+.experience_content_club_word{
+	position:absolute;
+	top:60vh;
+	left:0vw;
+	line-height:4.5vh;
+	font-size:1.25vw;
+}
+.experience_content_club img{
+	width:35vw;
+	height:auto;
+}
+.title2{
+	background-color:#181B46;
+	color:white;
+	text-align: center;
+	position:relative;
+	top:120vh;
+	max-height:8vh; 
+	min-height:8vh;
+	font-size:1.25vw;
+	border-bottom: 0.8vh double #FEC804;  
+}
+.skill_content{
+	display: flex;
+  	flex-direction:column;
+  	text-align:left;
+  	position:relative;
+  	top:125vh;
+	left:7.5vw;
+	font-size:1.25vw;
+
+}
+.container {
+  	width:100%;
+  	background-color:white;
+  	border-radius:0.5vw;
+}
+.skills{
+  	padding-top:0.8vw;
+  	padding-bottom:0.8vw;
+  	border-radius:0.5vw;
+  	color: white;
+}
+.html {width: 80%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.mysql {width: 60%; background-color: #f44336;}
+.title3{
+	background-color:#181B46;
+	color:white;
+	text-align: center;
+	position:relative;
+	top:143vh;
+	max-height:8vh; 
+	min-height:8vh;
+	font-size:1.25vw;
+	border-bottom: 0.8vh double #FEC804; 
+}
+.project_content1{
+  	display: flex;
+  	justify-content:space-around;
+  	position:absolute;
+  	top:330vh;
+  	right:70vw;
+}
+.project_content_word1{
+  	display:flex;
+  	flex-direction:column;
+  	position:relative;
+  	top:10vh;
+  	left:45vw;
+  	line-height:4.5vh;
+  	font-size:1.5vw;
+}
+.project_content2{
+  	display: flex;
+  	justify-content:space-around;
+  	position:absolute;
+  	top:380vh;
+  	right:67vw;
+}		
+.project_content_word2{
+  	display:flex;
+  	flex-direction:column;
+  	position:relative;
+  	top:10vh;
+  	left: 45vw;
+  	line-height:4.5vh;
+  	font-size:1.5vw;
+}
+.project_content1 img{
+  	width:40vw;
+  	height:auto;
+}
+.project_content2 img{
+  	width:40vw;
+  	height:auto;
+}
+footer{
+	background-color:#181B46;
+	color:white;
+	text-align: center;
+	font-size:1.5vw;
+}

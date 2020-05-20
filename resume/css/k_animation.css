@@ -1,0 +1,13 @@
+.hover img {
+  position:absolute;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+.hover img:nth-of-type(2):hover{
+  opacity:0; 
+}
